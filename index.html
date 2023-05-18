@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3 Nucba</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto&family=Slabo+27px&family=Unbounded:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section>
+
+        <h1>La pizzería de Nucba! </h1>
+        <h2>Mezclamos lo que más nos gusta: Pizzas y Programación!</h2>
+        
+        <div class="contenedor-menu">
+            <img src="./img/pizza.png" alt="imagen de pizza" class="pizza">
+            <h3>OPCIONES</h3>
+            <ol id="menu-pizza">
+                <li>  Muzzarella</li>
+                <li>  Fugazzeta</li>
+                <li>  Cuatro Quesos</li>
+                <li>  Especial</li>
+                <li>  Tropical</li>
+            </ol>
+            
+        </div>
+
+        <div class="ingresarNumero">
+
+            <label for="input-number">ESCRIBA UNA OPCIÓN</label>
+            <input id="input-number" name="input-number" type="number">
+            <div class="contenedor-error"></div> 
+            <button class="btn" onclick="buscarPizza()">COMPRAR</button>
+        </div>
+
+        <div class="contenedor" class="error"></div>
+
+    </section>
+
+    <footer>Hecho con ❤️ x VIFREITES</footer>
+    <script src="main.js"></script>
+</body>
+</html>
